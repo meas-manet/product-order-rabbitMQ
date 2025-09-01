@@ -1,0 +1,76 @@
+# Build results
+bin/
+obj/
+out/
+artifacts/
+
+# Visual Studio
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
+
+# Rider / JetBrains
+.idea/
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# Transient files
+*.tmp
+*.temp
+
+# Publish
+publish/
+wwwroot/dist/
+wwwroot/build/
+
+# Coverage
+coverage/
+*.coverage
+*.coveragexml
+
+# Docker
+*.pid
+*.seed
+*.pid.lock
+docker-compose.override.yml
+
+# Local configs
+appsettings.Development.json
+appsettings.Local.json
+
+# Resharper / cache
+_ReSharper*/
+*.DotSettings.user
+
+# Backup
+*.bak
+*.swp
+*.orig
+
+# Node (in case you add frontends later)
+node_modules/
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# Python venv (if used for scripts)
+venv/
+.env
+
+# Rider + VS Code settings
+.vscode/
+*.code-workspace
