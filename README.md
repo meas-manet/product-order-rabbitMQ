@@ -63,5 +63,13 @@ curl http://localhost:5080/api/products/<PRODUCT_ID>
 ### Create an Order
 
 ```bash
+curl -s -X POST http://localhost:5090/api/orders \
+  -H "Content-Type: application/json" \
+  -d '{"productId":"<PRODUCT_ID_FROM_ABOVE>","quantity":2}'
+```
+
+### Fetch Order
+
+```bash
 curl http://localhost:5090/api/orders/<ORDER_ID>
 ```
